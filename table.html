@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table tags</title>
+</head>
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
+
+    body {
+        font-family: 'Ubuntu', sans-serif;
+    }
+
+    .content {
+        margin: 0 auto;
+    }
+
+    .table-caption {
+        font-size: 35%;
+    }
+</style>
+
+<body>
+    <body>
+        <div class="content">
+           <table border="1", cellspacing="1", cellpadding="5">
+             <caption class="table-caption">Добыча драгоценных камней</caption>
+             <thead>
+               <tr>
+                 <th></th>
+                 <th>2010</th>
+                 <th>2012</th>
+                 <th>2014</th>
+               </tr>
+             </thead>
+               <tbody>
+               <tr>
+                 <td>Сапфиры</td>
+                 <td rowspan="2">123</td>
+                 <td>567</td>
+                 <td>18374</td>
+               </tr>
+               <tr>
+                 <td>Рубины</td>
+                 <td>1123</td>
+                 <td>43</td>
+               </tr>
+               <tr>
+                 <td>Алмазы</td>
+                 <td>435</td>
+                 <td colspan="2">54</td>
+               </tr>
+             <tbody>
+           </table>
+         </div>
+       </body>
+</body>
+</html>
